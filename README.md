@@ -1,7 +1,10 @@
 # Conversations are not Flat: Modeling the Intrinsic Information Flow between Dialogue Utterances
-This repository contains the code and pre-trained models for our ACL 2021 paper Conversations are not Flat: Modeling the Intrinsic Information Flow between Dialogue Utterances.
+This repository contains the code and pre-trained models for our ACL 2021 paper Conversations are not Flat: Modeling the Intrinsic Information Flow between Dialogue Utterances. 
+
+Our paper will be public soon!
 
 **************************** **Updates** ****************************
+
 * 5/10: We released the code and pre-trained model of **Flow Score**. Try to use it!
 
 

@@ -4,23 +4,6 @@
 
 As the **DialoFlow** is trained on human-human dialogues, the context flow scheme can be regarded as the general expectation of the dialogue development. Therefore, the closer gap between the semantic influence brought by the chatbot’s utterance and the expectation means the more human-likeness. 
 
-In the human-bot conversation, when the bot generates a new utterance $u_k​$, we measure the similarity between the predicted semantic influence $\mathbf{I}_k'​$ and the real semantic influence $\mathbf{I}_k​$ brought about by the utterance $u_k​$, which can be considered as the probability of the human-likeness of the utterance. 
-
-The similarity contains cosine similarity and length similarity:
-
-$$\begin{align}
-    s_k &= \cos(\langle \mathbf{I}_k', \mathbf{I}_k \rangle) \cdot length(\mathbf{I}_k', \mathbf{I}_k) \nonumber \\
-        &= \frac{\mathbf{I}_k' \cdot \mathbf{I}_k}{||\mathbf{I}_k'||~||\mathbf{I}_k||} \cdot \frac{\min(||\mathbf{I}_k'||, ||\mathbf{I}_k||)}{\max(||\mathbf{I}_k'||, ||\mathbf{I}_k||)}.
-\end{align} $$
-
-**Flow Score** can be computed as follows:
-
-$$\begin{equation}
-    Flow~ score = 2 ^{-\frac{1}{M}\sum_{k}^M \log (\frac{s_k+1}{2})}
-\end{equation}$$
-
-
-
 ## How to use?
 
 ```python

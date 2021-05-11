@@ -47,7 +47,7 @@ Please cite DSTC9 paper if you use the data.
 Please cite our paper if you use **Flow Score** in your work:
 
 ```bibtex
-@inproceedings{gao2021simcse,
+@inproceedings{li2021dialoflow,
    title={Conversations are not Flat: Modeling the Intrinsic Information Flow between Dialogue Utterances},
    author={Li, Zekang and Zhang, Jinchao and Fei, Zhengcong and Feng, Yang and Zhou, Jie},
    booktitle={Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},

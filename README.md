@@ -26,7 +26,7 @@ We will release the code and pre-trained models soon!
 
 ## Flow Score
 
-**Flow Score** is an automatic reference-free evaluation metric for interactive dialogue evaluation based on the pre-trained DialoFlow. **Flow Score** can be found [here]().
+**Flow Score** is an automatic reference-free evaluation metric for interactive dialogue evaluation based on the pre-trained DialoFlow. **Flow Score** can be found [here](https://github.com/ictnlp/DialoFlow/tree/main/FlowScore).
 
 
 

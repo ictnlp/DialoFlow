@@ -36,7 +36,7 @@ Please cite our paper if you use DialoFlow in your work.
 
 ```bibtex
 @inproceedings{li2021dialoflow,
-   title={Conversations are not Flat: Modeling the Intrinsic Information Flow between Dialogue Utterances},
+   title={Conversations are not Flat: Modeling the Dynamic Information Flow across Dialogue Utterances},
    author={Li, Zekang and Zhang, Jinchao and Fei, Zhengcong and Feng, Yang and Zhou, Jie},
    booktitle={Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
    year={2021}

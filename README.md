@@ -1,9 +1,11 @@
 # Conversations Are Not Flat: Modeling the Dynamic Information Flow across Dialogue Utterances
-This repository contains the code and pre-trained models for our ACL 2021 paper Conversations Are Not Flat: Modeling the Dynamic Information Flow across Dialogue Utterances. 
-
-Our paper will be public soon!
+This repository contains the code and pre-trained models for our ACL 2021 paper Conversations Are Not Flat: Modeling the Dynamic Information Flow across Dialogue Utterances [pdf](https://arxiv.org/abs/2106.02227). 
 
 **************************** **Updates** ****************************
+
+The Chinese version is comming soon!
+
+- 6/30: We released the code and pre-trained model (English version) of **DialoFlow**. 
 
 * 5/10: We released the code and pre-trained model of **Flow Score**. Try to use it!
 
@@ -20,7 +22,46 @@ We propose the **DialoFlow**, a new paradigm to construct the dynamic informatio
 
 ## DialoFlow
 
-We will release the code and pre-trained models soon!
+### Requirements
+
+torch==1.7.0
+
+transformers==3.0.2
+
+apex
+
+### Pre-trained models
+
+DialoFlow is pre-trained on the Reddit dataset based on the GPT-2. 
+
+For more details about the dataset, please refer to [DialoGPT](https://github.com/microsoft/DialoGPT).
+
+We release three pre-trained models: [DialoFlow_base](https://drive.google.com/drive/folders/1yK__2CdD_4Ca3d02HkAph6ndkkgVR3YU?usp=sharing), [DialoFlow_medium](https://drive.google.com/drive/folders/12acVZVXu7dmeB-jBocEJSrMNytuai0CU?usp=sharing), and [DialoFlow_large](https://drive.google.com/drive/folders/11a2WZezOCvV652QSTYgZkAZ1nezXrhhi?usp=sharing).
+
+Please download the pre-trained models under the path `models/`.
+
+The fine-tuning models on the BST dataset and the Chinese version will be public soon.
+
+
+
+### Dialogue Generation
+
+We provide the code for dialogue generation using the pre-trained DialoFlow model. 
+
+The script `generate.py` contains two decoding methods: beam search and nucleus sampling.
+
+You can modify the code for your own data and task.
+
+
+
+### Fine-tuning
+
+We fine-tuned the pre-trained model on the DailyDialog dataset. 
+
+```shell
+cd dailydialog
+bash fine-tune.sh
+```
 
 
 

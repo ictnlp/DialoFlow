@@ -15,7 +15,6 @@ from transformers import *
 
 SPECIAL_TOKENS = ["<bos>", "<eos>", "<info>", "<speaker1>", "<speaker2>", "<empty>", "<pad>"]
 SPECIAL_TOKENS_DICT = {'bos_token': "<bos>", 'eos_token': "<eos>", 'additional_special_tokens': ["<info>", "<speaker1>", "<speaker2>", "<empty>"], 'pad_token': "<pad>"}
-MODEL_PATH = "./models/DPKS_model304118.bin"
 
 
 def tokenize(obj,tokenizer):
